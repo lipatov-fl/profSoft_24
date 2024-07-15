@@ -1,24 +1,10 @@
 <resources>
-    <!-- lesson 2 -->
+
     <string name="app_name">ProfSoft24</string>
     <string name="greeting">Hello World!</string>
     <string name="btn_start_intent">Activity 2</string>
     <string name="btn_notification">Notification</string>
     <string name="img_rectangle_description">Rectangle individually rounded</string>
     <string name="img_squirrel_description">Image squirrel</string>
-
-    <!-- lesson 3 -->
-    <string name="profile_toolbar">Profile</string>
-    <string name="ic_back_description">Icon back</string>
-    <string name="profile_name">Ivan</string>
-    <string name="profile_surname">Ivanov</string>
-    <string name="profile_patronymic">Ivanovich</string>
-    <string name="profile_dob">Date of Birth:</string>
-    <string name="profile_dob_number" translatable="false">01.01.2001</string>
-    <string name="profile_city_title">City</string>
-    <string name="profile_city">Saratov</string>
-    <string name="profile_about_me_title">About Me</string>
-    <string name="profile_about_me">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="profile_edit_btn">Edit profile</string>
 
 </resources>

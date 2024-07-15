@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">ПрофСофт24</string>
     <string name="greeting">Привет мир!</string>
     <string name="btn_start_intent">Активити 2</string>
     <string name="btn_notification">Уведомление</string>
     <string name="img_rectangle_description">Прямоугольник индивидуально закруглен</string>
     <string name="img_squirrel_description">Изображение белки</string>
-    <string name="profile_toolbar">Профиль</string>
-    <string name="ic_back_description">Иконка назад</string>
-    <string name="profile_name">Иван</string>
-    <string name="profile_surname">Иванов</string>
-    <string name="profile_patronymic">Иванович</string>
-    <string name="profile_dob">Дата рождения:</string>
-    <string name="profile_city_title">Город</string>
-    <string name="profile_city">Саратов</string>
-    <string name="profile_about_me_title">О себе</string>
-    <string name="profile_about_me">Важно заботиться о больном, чтобы за ним следили, но это произойдет в такое время, когда будет много работы и боли. Если говорить до мельчайших подробностей, то никто не должен заниматься никакой работой, если не получит от нее какой-либо пользы. Не гневайся на боль, на упрек, на удовольствие он хочет быть волоском от боли в надежде, что не будет размножения. Если они не ослеплены похотью, они не выступают вперед; виноваты те, кто оставляет свои обязанности и смягчает свои сердца, то есть свои труды</string>
-    <string name="profile_edit_btn">Редактировать профиль</string>
+
 </resources>
