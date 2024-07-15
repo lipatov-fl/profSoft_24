@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_app">32dp</dimen>
+    <dimen name="greeting_margin_bottom">39dp</dimen>
+    <dimen name="text_size_app">20sp</dimen>
+    <dimen name="img_squirrel_margin_bottom">16dp</dimen>
+    <dimen name="img_rectangle_margin">50dp</dimen>
+    <dimen name="img_rectangle_width">260dp</dimen>
+    <dimen name="img_rectangle_height">112dp</dimen>
+    <dimen name="padding_start_btn_first_act">94dp</dimen>
+    <dimen name="padding_top_btn_first_act">14dp</dimen>
+    <dimen name="padding_end_btn_first_act">83dp</dimen>
+    <dimen name="padding_bottom_btn_first_act">11dp</dimen>
+    <dimen name="padding_start_btn_second_act">84dp</dimen>
+    <dimen name="padding_end_btn_second_act">83dp</dimen>
+    <dimen name="padding_bottom_btn_second_act">12dp</dimen>
+    <dimen name="profile_avatar_width">68dp</dimen>
+    <dimen name="profile_avatar_height">63dp</dimen>
+    <dimen name="profile_margin">20dp</dimen>
+    <dimen name="profile_margin_end">24dp</dimen>
+    <dimen name="profile_margin_full_name">24dp</dimen>
+    <dimen name="profile_margin_card">6dp</dimen>
+    <dimen name="profile_text_full_name">14sp</dimen>
+    <dimen name="profile_dob_margin_start">51dp</dimen>
+    <dimen name="profile_dob_text">10sp</dimen>
+    <dimen name="profile_margin_text">8dp</dimen>
+    <dimen name="profile_margin_about">20dp</dimen>
+    <dimen name="profile_padding_btn_horiz">83dp</dimen>
+    <dimen name="profile_padding_btn_vertic">20dp</dimen>
+</resources>
