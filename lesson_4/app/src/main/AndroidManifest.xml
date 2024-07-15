@@ -22,14 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity
-            android:name=".lesson2.FirstActivity"
-            android:exported="true" />
-
-        <activity
-            android:name=".lesson2.SecondActivity"
-            android:exported="false" />
     </application>
 
 </manifest>

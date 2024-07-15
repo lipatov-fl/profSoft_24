@@ -1,13 +1,6 @@
 <resources>
-    <!-- lesson 2 -->
     <string name="app_name">ProfSoft24</string>
-    <string name="greeting">Hello World!</string>
-    <string name="btn_start_intent">Activity 2</string>
-    <string name="btn_notification">Notification</string>
-    <string name="img_rectangle_description">Rectangle individually rounded</string>
     <string name="img_squirrel_description">Image squirrel</string>
-
-    <!-- lesson 3 -->
     <string name="profile_toolbar">Profile</string>
     <string name="ic_back_description">Icon back</string>
     <string name="profile_name">Ivan</string>

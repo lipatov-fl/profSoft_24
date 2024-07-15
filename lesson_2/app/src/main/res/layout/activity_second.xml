@@ -43,5 +43,4 @@
         app:backgroundTint="@null"
         app:fontFamily="@font/roboto_medium" />
 
-
 </LinearLayout>
