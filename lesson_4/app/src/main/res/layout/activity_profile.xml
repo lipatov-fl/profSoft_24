@@ -37,27 +37,27 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/view_line" />
-    
+
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_content_start"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintGuide_begin="16dp"
-        android:orientation="vertical"/>
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_content_end"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintGuide_end="16dp"
-        android:orientation="vertical"/>
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="16dp" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/text_view_city_title"
         style="@style/ProfileTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/profile_margin_end"
+        android:layout_marginTop="@dimen/profile_padding_end"
         android:text="@string/profile_city_title"
         android:textColor="@color/dark_grey"
         app:layout_constraintBottom_toTopOf="@id/text_view_city"

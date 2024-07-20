@@ -16,10 +16,10 @@
     <dimen name="padding_bottom_btn_second_act">12dp</dimen>
     <dimen name="profile_avatar_width">68dp</dimen>
     <dimen name="profile_avatar_height">63dp</dimen>
-    <dimen name="profile_margin">20dp</dimen>
-    <dimen name="profile_margin_end">24dp</dimen>
+    <dimen name="profile_padding">20dp</dimen>
+    <dimen name="profile_padding_end">24dp</dimen>
     <dimen name="profile_margin_full_name">24dp</dimen>
-    <dimen name="profile_margin_card">6dp</dimen>
+    <dimen name="profile_margin_text_bottom">6dp</dimen>
     <dimen name="profile_text_full_name">14sp</dimen>
     <dimen name="profile_dob_margin_start">51dp</dimen>
     <dimen name="profile_dob_text">10sp</dimen>
