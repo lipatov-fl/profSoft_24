@@ -11,7 +11,7 @@
     tools:context=".lesson2.SecondActivity">
 
     <ImageView
-        android:id="@+id/rectangle_img"
+        android:id="@+id/image_rectangle"
         android:layout_width="@dimen/img_rectangle_width"
         android:layout_height="@dimen/img_rectangle_height"
         android:layout_marginTop="@dimen/img_rectangle_margin"
@@ -20,7 +20,7 @@
         android:contentDescription="@string/img_rectangle_description" />
 
     <ImageView
-        android:id="@+id/squirrel_img"
+        android:id="@+id/image_squirrel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/img_squirrel_margin_bottom"
@@ -28,7 +28,7 @@
         android:contentDescription="@string/img_squirrel_description" />
 
     <Button
-        android:id="@+id/second_activity_btn"
+        android:id="@+id/button_second_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/rectangle_rounded_all_shape"

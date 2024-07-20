@@ -15,7 +15,7 @@
         android:layout_marginBottom="@dimen/profile_margin">
 
         <ImageView
-            android:id="@+id/avatar"
+            android:id="@+id/image_view_avatar"
             android:layout_width="@dimen/profile_avatar_width"
             android:layout_height="@dimen/profile_avatar_height"
             android:layout_gravity="center_vertical"
@@ -40,50 +40,50 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toEndOf="@+id/avatar"
+            app:layout_constraintStart_toEndOf="@+id/image_view_avatar"
             app:layout_constraintTop_toTopOf="parent">
 
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/name"
+                android:id="@+id/text_view_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/profile_margin_card"
                 android:text="@string/profile_name"
                 android:textSize="@dimen/profile_text_full_name"
                 app:fontFamily="@font/roboto_regular"
-                app:layout_constraintBottom_toTopOf="@id/surname"
+                app:layout_constraintBottom_toTopOf="@id/text_view_surname"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/surname"
+                android:id="@+id/text_view_surname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/profile_margin_card"
                 android:text="@string/profile_surname"
                 android:textSize="@dimen/profile_text_full_name"
                 app:fontFamily="@font/roboto_regular"
-                app:layout_constraintBottom_toTopOf="@id/patronymic"
-                app:layout_constraintEnd_toEndOf="@id/name"
+                app:layout_constraintBottom_toTopOf="@id/text_view_patronymic"
+                app:layout_constraintEnd_toEndOf="@id/text_view_name"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@id/name"
-                app:layout_constraintTop_toBottomOf="@id/name" />
+                app:layout_constraintStart_toStartOf="@id/text_view_name"
+                app:layout_constraintTop_toBottomOf="@id/text_view_name" />
 
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/patronymic"
+                android:id="@+id/text_view_patronymic"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/profile_patronymic"
                 android:textSize="@dimen/profile_text_full_name"
                 app:fontFamily="@font/roboto_regular"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@id/name"
+                app:layout_constraintEnd_toEndOf="@id/text_view_name"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@id/name"
-                app:layout_constraintTop_toBottomOf="@id/surname" />
+                app:layout_constraintStart_toStartOf="@id/text_view_name"
+                app:layout_constraintTop_toBottomOf="@id/text_view_surname" />
 
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/dob_txt"
+                android:id="@+id/text_view_dob"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/profile_dob_margin_start"
@@ -91,21 +91,21 @@
                 android:textSize="@dimen/profile_dob_text"
                 app:fontFamily="@font/roboto_regular"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/patronymic"
+                app:layout_constraintStart_toEndOf="@+id/text_view_patronymic"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="SmallSp" />
 
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/dob_number"
+                android:id="@+id/text_view_dob_number"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/profile_dob_number"
                 android:textSize="@dimen/profile_dob_text"
                 app:fontFamily="@font/roboto_regular"
-                app:layout_constraintEnd_toEndOf="@+id/dob_txt"
+                app:layout_constraintEnd_toEndOf="@+id/text_view_dob"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/dob_txt"
-                app:layout_constraintTop_toBottomOf="@+id/dob_txt"
+                app:layout_constraintStart_toStartOf="@+id/text_view_dob"
+                app:layout_constraintTop_toBottomOf="@+id/text_view_dob"
                 tools:ignore="SmallSp" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
         android:focusable="true"
-        app:layout_constraintBottom_toTopOf="@id/line"
+        app:layout_constraintBottom_toTopOf="@id/view_line"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -20,7 +20,7 @@
     </androidx.appcompat.widget.Toolbar>
 
     <View
-        android:id="@+id/line"
+        android:id="@+id/view_line"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@drawable/line_shape"
@@ -36,49 +36,49 @@
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/line" />
+        app:layout_constraintTop_toBottomOf="@id/view_line" />
     
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/content_start"
+        android:id="@+id/guideline_content_start"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintGuide_begin="16dp"
         android:orientation="vertical"/>
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/content_end"
+        android:id="@+id/guideline_content_end"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintGuide_end="16dp"
         android:orientation="vertical"/>
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/city_title"
+        android:id="@+id/text_view_city_title"
         style="@style/ProfileTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/profile_margin_end"
         android:text="@string/profile_city_title"
         android:textColor="@color/dark_grey"
-        app:layout_constraintBottom_toTopOf="@id/city"
+        app:layout_constraintBottom_toTopOf="@id/text_view_city"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@id/content_start"
+        app:layout_constraintStart_toStartOf="@id/guideline_content_start"
         app:layout_constraintTop_toBottomOf="@id/card_view_layout" />
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/city"
+        android:id="@+id/text_view_city"
         style="@style/ProfileTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/profile_margin_text"
         android:text="@string/profile_city"
-        app:layout_constraintBottom_toTopOf="@id/about_me_title"
+        app:layout_constraintBottom_toTopOf="@id/text_view_about_me_title"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@id/content_start"
-        app:layout_constraintTop_toBottomOf="@+id/city_title" />
+        app:layout_constraintStart_toStartOf="@id/guideline_content_start"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_city_title" />
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/about_me_title"
+        android:id="@+id/text_view_about_me_title"
         style="@style/ProfileTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -86,24 +86,24 @@
         android:text="@string/profile_about_me_title"
         android:textColor="@color/dark_grey"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@id/content_start"
-        app:layout_constraintTop_toBottomOf="@+id/city" />
+        app:layout_constraintStart_toStartOf="@id/guideline_content_start"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_city" />
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/about_me"
+        android:id="@+id/text_view_about_me"
         style="@style/ProfileTextStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/profile_margin_text"
         android:text="@string/profile_about_me"
-        app:layout_constraintBottom_toTopOf="@+id/edit_profile_btn"
-        app:layout_constraintEnd_toEndOf="@id/content_end"
-        app:layout_constraintStart_toStartOf="@id/content_start"
-        app:layout_constraintTop_toBottomOf="@+id/about_me_title"
+        app:layout_constraintBottom_toTopOf="@+id/button_edit_profile"
+        app:layout_constraintEnd_toEndOf="@id/guideline_content_end"
+        app:layout_constraintStart_toStartOf="@id/guideline_content_start"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_about_me_title"
         app:layout_constraintVertical_bias="0.0" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/edit_profile_btn"
+        android:id="@+id/button_edit_profile"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -117,7 +117,7 @@
         android:textSize="@dimen/profile_text_full_name"
         app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@id/content_end"
-        app:layout_constraintStart_toStartOf="@id/content_start" />
+        app:layout_constraintEnd_toEndOf="@id/guideline_content_end"
+        app:layout_constraintStart_toStartOf="@id/guideline_content_start" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

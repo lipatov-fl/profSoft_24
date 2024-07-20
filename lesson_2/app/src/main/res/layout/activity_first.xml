@@ -9,7 +9,7 @@
     android:padding="@dimen/padding_app">
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/greetings_text"
+        android:id="@+id/text_view_greetings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/greeting_margin_bottom"
@@ -21,7 +21,7 @@
         app:fontFamily="@font/roboto_medium" />
 
     <Button
-        android:id="@+id/first_activity_btn"
+        android:id="@+id/button_first_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/rectangle_rounded_all_shape"
