@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".lesson2.presentation.view.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        app:titleMarginStart="16dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_view_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start_app"
+        android:layout_marginTop="@dimen/margin_top_element"
+        android:text=""
+        android:textSize="@dimen/text_size_city" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_view_degree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start_app"
+        android:layout_marginTop="@dimen/margin_top_element"
+        android:text="" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_view_cloudy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start_app"
+        android:text="" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_view_weather_min_max"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start_app"
+        android:layout_marginTop="@dimen/margin_top_element"
+        android:text="" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_view_pressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start_app"
+        android:text="" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_view_humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start_app"
+        android:text="" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_view_visibility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start_app"
+        android:text="" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_view_wind_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start_app"
+        android:layout_marginTop="@dimen/margin_top_element"
+        android:text="" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_view_gust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start_app"
+        android:text="" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_view_direction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start_app"
+        android:text="" />
+
+
+</LinearLayout>
