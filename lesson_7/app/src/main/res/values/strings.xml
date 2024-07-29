@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">ProfSoft24</string>
+    <string name="toolbar_title">Weather</string>
+    <string name="temp" translatable="false">%1$.1f°C</string>
+    <string name="feels_like" translatable="false">Feels like %1$.1f°C</string>
+    <string name="weather_min_max" translatable="false">Min: %.1f°C, Max: %.1f°C</string>
+    <string name="pressure" translatable="false">pressure: %1$d hPa</string>
+    <string name="humidity" translatable="false">humidity: %1$d%%</string>
+    <string name="visibility" translatable="false">visibility: %1$.1f km</string>
+    <string name="speed" translatable="false">wind speed: %1$.1f m/s</string>
+    <string name="gust" translatable="false">gust: %1$.1f m/s</string>
+    <string name="direction" translatable="false">direction: %1$s</string>
+</resources>
