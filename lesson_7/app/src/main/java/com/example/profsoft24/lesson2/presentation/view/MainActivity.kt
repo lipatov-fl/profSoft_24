@@ -2,7 +2,6 @@ package com.example.profsoft24.lesson2.presentation.view
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.ViewModelProvider
 import com.example.profsoft24.R
 import com.example.profsoft24.databinding.ActivityMainBinding
 import com.example.profsoft24.lesson2.presentation.viewmodel.WeatherDataViewModel

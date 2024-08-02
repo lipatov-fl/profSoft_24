@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_app">16dp</dimen>
+    <dimen name="margin_bottom">6dp</dimen>
+    <dimen name="text_size_app">12sp</dimen>
+    <dimen name="text_height">39dp</dimen>
+    <dimen name="text_width">98dp</dimen>
+    <dimen name="rc_view_height">212dp</dimen>
+    <dimen name="txt_padding_vertic">12dp</dimen>
+    <dimen name="btn_margin_bottom">22dp</dimen>
+    <dimen name="view_pager_width">230dp</dimen>
+    <dimen name="view_pager_height">115dp</dimen>
+    <dimen name="view_pager_radius">12dp</dimen>
+    <dimen name="view_pager_elevation">3dp</dimen>
+    <dimen name="tab_dot_dimens">6dp</dimen>
+    <dimen name="tab_dot_margin_horizon">4dp</dimen>
+</resources>

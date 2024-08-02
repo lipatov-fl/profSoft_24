@@ -3,9 +3,6 @@ package com.example.profsoft24.lesson2.data.repositories
 import com.example.profsoft24.lesson2.data.api.WeatherServiceClient.weatherApi
 import com.example.profsoft24.lesson2.domain.model.Weather
 import com.example.profsoft24.lesson2.domain.repository.WeatherDataRepository
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
 
 class WeatherDataRepositoryImpl : WeatherDataRepository {
     override suspend fun getWeather(): Weather {
