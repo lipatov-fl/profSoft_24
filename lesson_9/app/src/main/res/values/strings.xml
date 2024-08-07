@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">lesson_9</string>
+    <string name="greeting">Hello World!</string>
+    <string name="btn_start_intent">Activity 2</string>
+    <string name="btn_notification">Notification</string>
+    <string name="img_rectangle_description">Rectangle individually rounded</string>
+    <string name="img_squirrel_description">Image squirrel</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="title_activity_second">SecondActivity</string>
+</resources>

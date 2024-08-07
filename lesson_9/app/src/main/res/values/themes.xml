@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Lesson_9" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColor">@color/purple_200</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:padding">32dp</item>
+    </style>
+
+</resources>
